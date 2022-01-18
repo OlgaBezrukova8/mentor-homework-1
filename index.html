@@ -5,152 +5,330 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Freebie</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Khula:wght@400;700&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html">logo</a>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About Us</a></li>
-          <li><a href="">Services</a></li>
-          <li><a href="">Blogs</a></li>
-        </ul>
-        <button type="button">Gift Finder</button>
-      </nav>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="header-nav">
+          <a class="link header-logo" href="./index.html">logo</a>
+          <ul class="list header-list">
+            <li class="header-item">
+              <a class="link header-link" href="">Home</a>
+            </li>
+            <li class="header-item">
+              <a class="link header-link" href="">About Us</a>
+            </li>
+            <li class="header-item">
+              <a class="link header-link" href="">Services</a>
+            </li>
+            <li class="header-item">
+              <a class="link header-link" href="">Blogs</a>
+            </li>
+          </ul>
+          <button class="header-button header-button-flex" type="button">
+            Gift Finder
+          </button>
+        </nav>
+      </div>
     </header>
     <main>
       <section class="hero">
-        <div>
-          <h1>Find a gift for your wife or girlfriend</h1>
-          <p>
-            Struggling to find a gift for your wife or girlfriend? No problem!
-          </p>
-          <button type="button">Find gift now</button>
+        <div class="container hero-container">
+          <div class="hero-text-div">
+            <h1 class="hero-title">
+              Find a gift for <br />
+              your wife or <br />
+              girlfriend
+            </h1>
+            <p class="hero-after-title">
+              Struggling to find a gift for your wife or girlfriend? No problem!
+            </p>
+
+            <div class="hero-button-div">
+              <button class="hero-button" type="button">Find gift now</button>
+            </div>
+          </div>
+
+          <div class="hero-picture-div">
+            <img
+              class="hero-picture"
+              src="./images/couple.jpg"
+              alt="couple"
+              width="719"
+            />
+          </div>
         </div>
-        <img src="./images/couple.jpg" alt="couple" width="719" />
       </section>
 
-      <section>
-        <img src="./images/card.jpg" alt="Card" width="733" />
-        <h2>How we work</h2>
-        <p>
-          We’ve actually already asked hundreds of women what they want, and
-          made a database with the results. All you have to do is take our short
-          survey that only takes seconds, and our proprietary algorithm will
-          match you with a few perfect gift options.
-        </p>
-        <button type="button">Learn More</button>
+      <section class="section about about-section">
+        <div class="container about-container">
+          <div class="about-picture-div">
+            <img
+              class="about-picture"
+              src="./images/card.jpg"
+              alt="Card"
+              width="719"
+            />
+          </div>
+          <div class="about-text-div">
+            <h2 class="about-title">How we work</h2>
+            <p class="about-after-title">
+              We’ve actually already asked hundreds of women what they want, and
+              made a database with the results. All you have to do is take our
+              short survey that only takes seconds, and our proprietary
+              algorithm will match you with a few perfect gift options.
+            </p>
+            <div class="about-button-div">
+              <button class="about-button" type="button">Learn More</button>
+            </div>
+          </div>
+        </div>
       </section>
 
-      <section>
-        <h2>Gifts for all Occasions</h2>
-        <p>“Try our web app to find the best gifts for all occasions”</p>
+      <section class="section suggestions">
+        <div class="container">
+          <h2 class="suggestions-title">Gifts for all Occasions</h2>
+          <p class="suggestions-after-title">
+            “Try our web app to find the best gifts for all occasions”
+          </p>
+          <!-- <div class="suggestions-cards-div"> -->
+          <ul class="list suggestions-list">
+            <div class="suggestions-item-div">
+              <li class="suggestions-item">
+                <img
+                  class="suggestions-picture"
+                  src="./images/baloon.jpg"
+                  alt="baloon"
+                  width="270"
+                />
+                <div class="suggestions-text-div">
+                  <p class="suggestions-text">Birthday</p>
+                  <a class="link suggestions-link" href="">See More ›</a>
+                </div>
+              </li>
+            </div>
 
-        <ul>
-          <li>
-            <img src="./images/baloon.jpg" alt="baloon" width="270" />
-            <p>Birthday</p>
-            <a href="">See More ›</a>
-          </li>
+            <div class="suggestions-item-div">
+              <li class="suggestions-item">
+                <img
+                  class="suggestions-picture"
+                  src="./images/shoes.jpg"
+                  alt="shoes"
+                  width="270"
+                />
+                <div class="suggestions-text-div">
+                  <p class="suggestions-text">Anniversary</p>
+                  <a class="link suggestions-link" href="">See More ›</a>
+                </div>
+              </li>
+            </div>
 
-          <li>
-            <img src="./images/shoes.jpg" alt="shoes" width="270" />
-            <p>Anniversary</p>
-            <a href="">See More ›</a>
-          </li>
+            <div class="suggestions-item-div">
+              <li class="suggestions-item">
+                <img
+                  class="suggestions-picture"
+                  src="./images/cards.jpg"
+                  alt="cards"
+                  width="270"
+                />
+                <div class="suggestions-text-div">
+                  <p class="suggestions-text">Valentine's Day</p>
+                  <a class="link suggestions-link" href="">See More ›</a>
+                </div>
+              </li>
+            </div>
 
-          <li>
-            <img src="./images/cards.jpg" alt="cards" width="270" />
-            <p>Valentine's Day</p>
-            <a href="">See More ›</a>
-          </li>
-
-          <li>
-            <img src="./images/spruce.jpg" alt="spruce" width="270" />
-            <p>Christmas</p>
-            <a href="">See More ›</a>
-          </li>
-        </ul>
+            <div class="suggestions-item-div">
+              <li class="suggestions-item">
+                <img
+                  class="suggestions-picture"
+                  src="./images/spruce.jpg"
+                  alt="spruce"
+                  width="270"
+                />
+                <div class="suggestions-text-div">
+                  <p class="suggestions-text">Christmas</p>
+                  <a class="link suggestions-link" href="">See More ›</a>
+                </div>
+              </li>
+            </div>
+          </ul>
+          <!-- </div> -->
+        </div>
       </section>
 
-      <section>
-        <h2>Find gift</h2>
-        <ul>
-          <li><p>Ready to get started?</p></li>
-          <li><p>Sign up or contact us</p></li>
-        </ul>
+      <section class="section start">
+        <div class="container start-container">
+          <h2 class="start-title start-visually-hidden">Find gift</h2>
+          <ul class="list start-list">
+            <li class="start-item">
+              <p class="start-item-fist">Ready to get started?</p>
+            </li>
+            <li class="start-item">
+              <p class="start-item-second">Sign up or contact us</p>
+            </li>
+          </ul>
 
-        <ul>
-          <li><button type="button">Find gift now</button></li>
-          <li><button type="button">how it works</button></li>
-        </ul>
+          <ul class="list start-list-button">
+            <div class="start-button-div">
+              <li class="start-item">
+                <button class="start-button start-button-one" type="button">
+                  Find gift now
+                </button>
+              </li>
+              <li class="start-item">
+                <button class="start-button start-button-two" type="button">
+                  how it works
+                </button>
+              </li>
+            </div>
+          </ul>
+        </div>
       </section>
 
-      <section>
+      <section class="section blog">
         <!-- спросить по поводу иерархии заголовков в этой секции -->
+        <div class="container blog-container">
+          <h2 class="blog-title">Our Best Blogs Ever</h2>
+          <p class="blog-after-title">
+            “Try our blog to find the best tips and tricks to select your gift”
+          </p>
+          <div class="blog-img-div">
+            <div class="blog-picture-div">
+              <img
+                class="blog-picture"
+                src="./images/couple-2.jpg"
+                alt="couple"
+                width="400"
+              />
+            </div>
+            <div class="blog-text-div">
+              <h3 class="blog-second-title">Mr. John Doe</h3>
+              <p class="blog-text">The best way to wish your wife</p>
+              <a class="link blog-info-link" href="">Read More</a>
+            </div>
+          </div>
 
-        <h2>Our Best Blogs Ever</h2>
-        <p>
-          “Try our blog to find the best tips and tricks to select your gift”
-        </p>
-        <img src="./images/couple-2.jpg" alt="couple" />
-        <h3>Mr. John Doe</h3>
-        <p>The best way to wish your wife</p>
-        <a href="">Read More</a>
-
-        <ul>
-          <li>
-            <h3>Database to find the gifts for your girlfriend</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore...
-            </p>
-            <a href="">Read More</a>
-          </li>
-          <li>
-            <h3>
-              How Artificial Intelligence read your mind to find the best gift
-            </h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore...
-            </p>
-            <a href="">Read More</a>
-          </li>
-        </ul>
+          <ul class="list blog-list">
+            <!-- <div class="blog-div"> -->
+            <div class="blog-card-div">
+              <li class="blog-item">
+                <a class="link blog-card-link" href="">
+                <h3 class="blog-item-title">
+                  Database to find the gifts for your girlfriend
+                </h3>
+                <p class="blog-item-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore...
+                </p>
+                <a class="link blog-link" href="">Read More</a>
+              </li>
+              </a>
+            </div>
+            <div class="blog-card-div">
+              <li class="blog-item">
+                <a class="link blog-card-link" href="">
+                <h3 class="blog-item-title">
+                  How Artificial Intelligence read your mind to find the best
+                  gift
+                </h3>
+                <p class="blog-item-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore...
+                </p>
+                <a class="link blog-link" href="">Read More</a>
+                </a>
+              </li>
+            </div>
+            <!-- </div> -->
+          </ul>
+        </div>
       </section>
     </main>
 
-    <footer>
-      <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">About</a></li>
-      </ul>
+    <footer class="footer">
+      <div class="container footer-container">
+     
+        <div class="footer-fist-div">
+        <div class="footer-list-div">
+        <ul class="list footer-list">
+          
+          <li class="footer-item">
+            <a class="link footer-link" href="">Home</a>
+          </li>
+          <li class="footer-item">
+            <a class="link footer-link" href="">About</a>
+          </li>
+         
+        </ul>
+         </div>
+         
 
-      <a href="./index.html">logo</a>
+        <div class="footer-log-div">
+        <a class="link footer-logo-link" href="./index.html">logo</a>
+        </div>
 
-      <ul>
-        <li><a href="">Service</a></li>
-        <li><a href="">Blog</a></li>
-      </ul>
+        <ul class="list footer-list">
+          <!-- <div class="footer-link-service"> -->
+          <li class="footer-item footer-item-link">
+            <a class="link footer-link " href="">Service</a>
+          </li>
+          <li class="footer-item footer-item-link">
+            <a class="link footer-link " href="">Blog</a>
+          </li>
+          <!-- </div> -->
+        </ul>
+        </div>
 
-      <ul>
-        <li><a aria-label="Facebook link" href="">Facebook</a></li>
-        <li><a aria-label="Twitter link" href="">Twitter</a></li>
-        <li><a aria-label="Instagram link" href="">Instagram</a></li>
-        <li><a aria-label="YouTube link" href="">YouTube</a></li>
-        <li><a aria-label="Pinterest link" href="">Pinterest</a></li>
-      </ul>
+        <div class="footer-social-div">
+        <ul class="list footer-social">
+          <li class="footer-social-item">
+            <a class="link social-link"  href=""
+              ></a
+            >
+          </li>
+          <li class="footer-social-item">
+            <a class="link social-link"  href=""
+              ></a
+            >
+          </li>
+          <li class="footer-social-item">
+            <a class="link social-link"  href=""
+              ></a
+            >
+          </li>
+          <li class="footer-social-item">
+            <a class="link social-link"  href=""
+              ></a
+            >
+          </li>
+          <li class="footer-social-item">
+            <a class="link social-link"  href=""
+              ></a
+            >
+          </li>
+        </ul>
+         </div>
 
-      <ul>
-        <li>
-          <p><span>&copy; 2010 — 2020</span></p>
-        </li>
-        <li>
-          <p>Privacy — Terms</p>
-        </li>
-      </ul>
+         <!-- <div class="footer-info-div"> -->
+        <ul class="footer-info-list">
+          <li class="footer-info-item">
+            <p><span>&copy; 2010 — 2020</span></p>
+          </li>
+          <li class="footer-info-item">
+            <p>Privacy — Terms</p>
+          </li>
+        </ul>
+        <!-- </div> -->
+       
+      </div>
     </footer>
   </body>
 </html>
