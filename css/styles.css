@@ -522,12 +522,13 @@ body {
 
 .blog-list {
   display: flex;
+  padding-bottom: 80px;
 }
 
 /* уточнить, как сделать клибально всю карточку  */
-.blog-card-div {
-  padding-bottom: 80px;
-}
+/* .blog-card-div {
+ 
+} */
 
 .blog-item {
   padding: 48px;
@@ -538,6 +539,7 @@ body {
 .blog-item:hover,
 .blog-item:focus {
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
 }
 
 .blog-item-title {
@@ -560,6 +562,10 @@ body {
 }
 
 /* --- section footer --- */
+
+.footer {
+  background-color: var(--header-footer-color);
+}
 
 .footer-fist-div {
   position: relative;
