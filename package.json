@@ -2,10 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://olgabezrukova8.github.io/mentor-homework-1/",
+  "homepage": "https://github.com/OlgaBezrukova8/photo-library",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /mentor-homework-1/"
+    "build": "parcel build src/*.html --public-url /photo-library/"
   },
   "repository": {
     "type": "git",
