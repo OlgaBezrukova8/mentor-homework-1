@@ -1,0 +1,51 @@
+.start {
+  background-color: $accent-color;
+}
+
+.start-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 81px 0px 69px 0px;
+}
+
+.start-item-fist {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 1.4;
+}
+
+.start-item-second {
+  font-size: 32px;
+  line-height: 1.4;
+}
+
+.start-list-button {
+  display: flex;
+  margin-left: 229px;
+}
+
+.start-button-one {
+  border: 0.5px solid $primary-text-color;
+
+  background-color: $logo-color;
+  color: $primary-background-color;
+}
+
+.start-button-one:hover,
+.start-button-one:focus {
+  background-color: transparent;
+  color: $logo-color;
+}
+
+.start-button-two {
+  margin-left: 16px;
+  border: 0.5px solid $primary-text-color;
+}
+
+.start-button-two:hover,
+.start-button-two:focus {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: $accent-color;
+  border: 0.5px solid $primary-background-color;
+}

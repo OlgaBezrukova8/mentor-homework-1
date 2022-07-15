@@ -1,0 +1,62 @@
+.about-section {
+  padding-top: 0;
+  background-color: $hero-background;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+}
+
+.about-picture-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 50%;
+  height: 600px;
+}
+
+.about-picture {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+.about-text-div {
+  padding: 0px 95px 0 55px;
+  width: 50%;
+}
+
+.about-title {
+  margin-bottom: 23px;
+
+  font-size: 32px;
+  line-height: 1.22;
+}
+
+.about-after-title {
+  margin-bottom: 35px;
+
+  font-size: 20px;
+  text-align: justify;
+}
+
+.about-button-div {
+  margin-bottom: 104px;
+}
+
+.about-button {
+  font-size: 18px;
+  border: 1px solid $accent-color;
+
+  color: $accent-color;
+  background-color: $hero-background;
+}
+
+.about-button:hover,
+.about-button:focus {
+  background-color: $accent-color;
+  color: $primary-background-color;
+}

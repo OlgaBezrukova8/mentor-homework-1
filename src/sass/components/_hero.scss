@@ -1,0 +1,64 @@
+.hero {
+  background-color: $hero-background;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+}
+
+.hero-text-div {
+  padding: 0px 95px 0px 48px;
+  width: 50%;
+}
+
+.hero-title {
+  margin-bottom: 36px;
+  // margin-left: auto;
+  // margin-right: auto;
+
+  font-weight: 700;
+  font-size: 44px;
+  // line-height: calc(69 / 56);
+}
+
+.hero-after-title {
+  font-size: 20px;
+  margin-bottom: 52px;
+}
+
+.hero-button {
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  font-size: 18px;
+  line-height: 1.22;
+
+  border: none;
+  box-sizing: border-box;
+
+  border: 1px solid $accent-color;
+
+  color: $primary-background-color;
+  background-color: $accent-color;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: $hero-background;
+  color: $accent-color;
+}
+
+.hero-picture-div {
+  padding-left: 0;
+  padding-right: 0;
+  width: 50%;
+  height: 600px;
+}
+
+.hero-picture {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
