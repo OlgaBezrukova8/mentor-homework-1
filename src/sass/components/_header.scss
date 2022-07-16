@@ -8,10 +8,16 @@
   padding-top: 38px;
   padding-bottom: 38px;
 
+  text-transform: uppercase;
   font-family: Homemade Apple;
   font-size: 18px;
+  font-weight: 600;
 
   color: $logo-color;
+}
+
+.header-logo--accent {
+  color: $accent-color;
 }
 
 .header-list {

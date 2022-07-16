@@ -110,4 +110,9 @@
 .blog-link {
   font-size: 14px;
   line-height: 1.43;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }
