@@ -2,10 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://github.com/OlgaBezrukova8/photo-library",
+  "homepage": "https://github.com/OlgaBezrukova8/gifts-library",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /photo-library/"
+    "build": "parcel build src/*.html --public-url /gifts-library/"
   },
   "repository": {
     "type": "git",
